@@ -169,6 +169,7 @@ return [
         \Ytake\LaravelAspect\AspectServiceProvider::class,
         // added Artisan Command
         \Ytake\LaravelAspect\ConsoleServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
@@ -177,7 +178,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        // laravel collective annotation
+        App\Providers\AnnotationsServiceProvider::class,
     ],
 
     /*

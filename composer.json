@@ -67,6 +67,9 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ],
+        "cache-clear": [
+            "@php artisan "
+        ],
         "cs-report": [
             "@php vendor/bin/phpcs app/ --report-full --report-source --standard=phpcs.xml --colors"
         ],
